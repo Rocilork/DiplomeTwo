@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">13sp</item> <!-- Уменьшаем размер шрифта -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="BottomNavNoRipple" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Отключаем ripple-эффект, делая его прозрачным -->
+        <item name="itemRippleColor">@android:color/transparent</item>
+    </style>
+</resources>

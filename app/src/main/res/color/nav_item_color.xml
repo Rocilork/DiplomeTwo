@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Цвет для активной (выбранной) иконки -->
+    <item android:color="#2D9EEF" android:state_checked="true" />
+
+    <!-- Цвет для неактивной иконки -->
+    <item android:color="#2D7AEF" />
+</selector>

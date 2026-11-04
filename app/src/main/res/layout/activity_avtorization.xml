@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".Avtorization">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inder"
+            android:gravity="center"
+            android:text="Авторизация"
+            android:textColor="@color/blue"
+            android:textSize="32dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="Логин (e-mail)"
+            android:textColorHint="@color/whiteBlue"
+            android:paddingStart="5dp"
+            android:layout_marginHorizontal="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Пароль"
+            android:textColorHint="@color/whiteBlue"
+            android:paddingStart="5dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:inputType="numberPassword"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/buttonEnter"
+            android:layout_width="305dp"
+            android:layout_height="65dp"
+            android:textSize="32dp"
+            android:text="Авторизоваться"
+            android:textColor="@color/whiteText"
+            android:background="@drawable/radius"
+            app:backgroundTint="@null"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

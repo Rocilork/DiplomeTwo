@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".ProfileS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inder"
+            android:gravity="center"
+            android:text="Личный кабинет"
+            android:textColor="@color/blue"
+            android:textSize="32dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/FIO_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inder"
+            android:gravity="left"
+            android:paddingStart="10dp"
+            android:text="ФИО"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/Group_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inder"
+            android:gravity="left"
+            android:paddingStart="10dp"
+            android:text="Группа"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/Course_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inder"
+            android:gravity="left"
+            android:paddingStart="10dp"
+            android:text="Курс"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/Faculty_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inder"
+            android:gravity="left"
+            android:paddingStart="10dp"
+            android:text="Факультет"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginTop="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inder"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:text="Вкл/Выкл уведомления"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:layout_marginBottom="20dp"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:layout_marginEnd="10dp"
+                android:scaleX="1.3"
+                android:scaleY="1.3"
+                app:thumbTint="@color/switch_thumb_selector"
+                app:trackTint="@color/switch_track_selector" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonExiteS"
+            android:layout_width="305dp"
+            android:layout_height="65dp"
+            android:textSize="32dp"
+            android:text="Выйти"
+            android:textColor="@color/whiteText"
+            android:background="@drawable/radius"
+            app:backgroundTint="@null"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+</LinearLayout>
