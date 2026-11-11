@@ -25,17 +25,24 @@
             android:textSize="32dp"
             android:layout_marginBottom="20dp"/>
 
-        <TextView
-            android:id="@+id/FIO_S"
+        <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inder"
-            android:gravity="left"
-            android:paddingStart="10dp"
-            android:text="ФИО"
-            android:textColor="@color/black"
-            android:textSize="24dp"
-            android:layout_marginTop="50dp"/>
+            android:paddingEnd="10dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/FIO_S"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inder"
+                android:gravity="left"
+                android:paddingStart="10dp"
+                android:text="ФИО"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:layout_marginTop="0dp"/>
+        </HorizontalScrollView>
 
         <TextView
             android:id="@+id/Group_S"

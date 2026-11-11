@@ -25,6 +25,12 @@
             android:textSize="32dp"
             android:layout_marginBottom="20dp"/>
 
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="50dp">
+
         <TextView
             android:id="@+id/FIO_T"
             android:layout_width="match_parent"
@@ -35,7 +41,8 @@
             android:text="ФИО"
             android:textColor="@color/black"
             android:textSize="24dp"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="0dp"/>
+        </HorizontalScrollView>
 
         <TextView
             android:id="@+id/Faculty_T"
